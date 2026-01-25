@@ -160,7 +160,7 @@ par(mfrow=c(1,2))
 anova(mod0,mod1,mod_2,mod_3)
 
 # ===========================
-# Modèles GAMM
+# GAMM
 # ===========================
 
 gamm1 <- gam(
@@ -263,4 +263,5 @@ ggplot() +
     legend.text=element_text(size=24),
     plot.caption=element_text(size=22)
   )
+
 
